@@ -19,13 +19,17 @@ import matplotlib.pyplot as plt
 ```
 
 ```{code-cell} ipython3
-:tags: [raises-exception]
-
 x = np.random.randn(50)
 y = np.random.randn(50)
 ```
 
 ```{code-cell} ipython3
+---
+render:
+  figure:
+    caption: "This is a test for a plot caption"
+    name: fig:test-caption
+---
 plt.plot(x, y, "o");
 ```
 
