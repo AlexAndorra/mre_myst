@@ -34,5 +34,11 @@ plt.plot(x, y, "o");
 ```
 
 ```{code-cell} ipython3
+---
+render:
+  figure:
+    caption: "This is another test for a plot caption"
+    name: fig:another-test-caption
+---
 plt.plot(y, x, "o");
 ```
