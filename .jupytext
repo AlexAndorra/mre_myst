@@ -1,0 +1,2 @@
+# Always pair ipynbnoteboks to md files
+default_jupytext_formats = "notebooks///ipynb,code/source///md:myst"
