@@ -28,7 +28,7 @@ y = np.random.randn(50)
 render:
   figure:
     caption: "This is a test for a plot caption"
-    name: fig:test-caption
+    name: "fig:test-caption"
 ---
 plt.plot(x, y, "o");
 ```
@@ -38,7 +38,7 @@ plt.plot(x, y, "o");
 render:
   figure:
     caption: "This is another test for a plot caption"
-    name: fig:another-test-caption
+    name: "fig:another-test-caption"
 ---
 plt.plot(y, x, "o");
 ```
