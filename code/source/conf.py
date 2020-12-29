@@ -10,7 +10,6 @@ needs_sphinx = '3.0'
 
 extensions = [
     "sphinx.ext.mathjax",
-    "sphinxcontrib.bibtex",
     "myst_nb",
 ]
 
